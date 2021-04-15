@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6011355505173639347
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 486433406288487981}
+  - component: {fileID: 2563023209584099310}
+  m_Layer: 0
+  m_Name: LevelGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &486433406288487981
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6011355505173639347}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.64278936, y: -34.06948, z: 71.106064}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2563023209584099310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6011355505173639347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9329d78c596490448930bcbe21a176ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomSize: 10
+  numberOfTrash: 20
+  numberOfObstacles: 10
+  score: {fileID: 0}
+  xPos: 0
+  zPos: 0
+  xPosOffset: 3
+  zPosOffset: 3
+  trashGO: {fileID: 2876444477923747102, guid: 82a84680448813e46a70045b2f074de1, type: 3}
+  furnitureGO:
+  - {fileID: 3735045799351037029, guid: 76ec2a10afb16d3409e5d5549521572c, type: 3}
+  - {fileID: 4165460772360443964, guid: 1b8eb444dea3a094790e31995cb3eb64, type: 3}
+  - {fileID: 9211377658035362190, guid: e26cafe8fe0040e46bae633a05fbb6c1, type: 3}
+  - {fileID: 3368577243001420473, guid: 314334221b6e9eb4a9eefba53f36196e, type: 3}
+  bigFurnitureGO: {fileID: 8630552993657776508, guid: f655dc5b4c2a15a47a49d87484a8f1d8,
+    type: 3}
+  lm: {fileID: 0}
+  player: {fileID: 0}
+  startDelay: 1
